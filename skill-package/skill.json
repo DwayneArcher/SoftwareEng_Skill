@@ -1,0 +1,35 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:680219061386:function:7f5c347e-6071-40f6-a0b1-8ca88cd52fe2:Release_0"
+        },
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:680219061386:function:7f5c347e-6071-40f6-a0b1-8ca88cd52fe2:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:680219061386:function:7f5c347e-6071-40f6-a0b1-8ca88cd52fe2:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:680219061386:function:7f5c347e-6071-40f6-a0b1-8ca88cd52fe2:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Hello Engineering"
+        }
+      }
+    }
+  }
+}
